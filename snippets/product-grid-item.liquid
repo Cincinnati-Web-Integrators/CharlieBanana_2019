@@ -1,0 +1,84 @@
+{% unless grid_item_width %}
+  {% assign grid_item_width = 'large--one-quarter medium-down--one-half' %}
+{% endunless %}
+
+{% unless image_size %}
+  {%- assign image_size = '179x' -%}
+{% endunless %}
+
+{% unless current_collection %}
+  {% assign current_collection = collection %}
+{% endunless %}
+
+{% assign on_sale = false %}
+{% if product.compare_at_price > product.price %}
+  {% assign on_sale = true %}
+{% endif %}
+
+{% assign sold_out = true %}
+{% if product.available  %}
+  {% assign sold_out = false %}
+{% endif %}
+
+<div class="grid-item {{ grid_item_width }}{% if sold_out %} sold-out{% endif %}{% if on_sale %} on-sale{% endif %}">
+
+  <a href="{{ product.url | within: current_collection }}" class="product-grid-item">
+    <div class="product-grid-image">
+      <div class="product-grid-image--centered">
+        {% if sold_out %}
+          <div class="badge badge--sold-out"><span class="badge-label">{{ 'products.product.sold_out' | t }}</span></div>
+        {% endif %}
+        <img src="{{ product.featured_image.src | img_url: '179x' }}" 
+        srcset="{{ product.featured_image.src | img_url: '179x' }}"
+        alt="{{ product.featured_image.alt | escape }}">
+      </div>
+    </div>
+
+    <p>{{ product.title }}</p>
+    
+    <div style="padding-left:8%;" class="yotpo bottomLine"
+    data-appkey="KnraR2eHiem0tg3aOHP0JXV68XTwZjZFbN0ka4So"
+    data-domain="{{shop.permanent_domain | escape }}"
+    data-product-id="{{ product.id }}"
+    data-product-models="{{ product.id }}"
+    data-name="{{ product.title | escape }}"
+    data-url="{{ shop.url }}{{ product.url }}"
+    data-image-url="{{ product.featured_image | product_img_url: 'large' |replace: '?', '%3F' | replace: '&','%26'}}"
+    data-description="{{ product.description | escape }}"
+    data-bread-crumbs="{% for tag in product.tags %}{{ tag | escape }};{% endfor %}">
+</div>
+
+
+    <div class="product-item--price">
+      <span class="h1 medium--left">
+        {% if on_sale %}
+          <span class="visually-hidden">{{ "products.general.sale_price" | t }}</span>
+        {% else %}
+          <span class="visually-hidden">{{ "products.general.regular_price" | t }}</span>
+        {% endif %}
+        {% include 'price' with product.price %}
+        {% if on_sale and section.settings.product_show_compare_at_price %}
+          <small>
+            <s>
+              <span class="visually-hidden">{{ "products.general.regular_price" | t }}</span>
+              {% include 'price' with product.compare_at_price %}
+            </s>
+          </small>
+        {% endif %}
+      </span>
+
+      {% if on_sale and section.settings.product_show_saved_amount %}
+        <span class="sale-tag{% unless section.settings.show_compare_at_price %} medium--right{% endunless %}{% if section.settings.product_reviews_enable %} has-reviews{% endif %}">
+          {% assign compare_price = product.compare_at_price %}
+          {% assign product_price = product.price %}
+          {% include 'price-sale' %}
+        </span>
+      {% endif %}
+    </div>
+
+   {% if section.settings.product_reviews_enable %}
+      <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+    {% endif %}
+  </a>
+
+</div>

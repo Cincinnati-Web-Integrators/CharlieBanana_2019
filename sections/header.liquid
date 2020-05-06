@@ -1,0 +1,237 @@
+
+<header class="site-header" role="banner" data-section-id="{{ section.id }}" data-section-type="header-section">
+  <div class="wrapper">
+   {%comment%} <div class="cb-site-header bar">
+         
+        <div class="msg1">
+          {% if section.settings.header_message != blank or shop.customer_accounts_enabled %}
+          <div class="{% if section.settings.header_message == blank %} medium-down--hide{% endif %}">
+            {% if section.settings.header_message != blank %}
+            <div class="">
+              {{ section.settings.header_message | replace: '<p>', '' | replace: '</p>', '' }}
+            </div>
+            {% endif %}
+            <!--<br class="medium-down--hide">-->
+            {% endif %}
+          </div>
+        </div>
+
+    </div>{%endcomment%}
+    <div class="cb-cb-site-header bar-header">
+           <div class="cb-site-hdr-cart">
+        <!-- CART -->
+        <a href="/cart" class="header-cart-btn cart-toggle event_view_cart" data-action-detail="header: Cart">
+          <div class="img"> <img src="{{ 'cart.png' | file_url }}"></div>
+          <div class="cart-count cart-badge--desktop {% if cart.item_count == 0 %}hidden-count{% endif %}">{{ cart.item_count }}</div>
+        </a>
+        <!--End of Cart -->
+		<div id="weglot_here"></div>
+      </div>
+        <!-- promo code 
+             <div class="b_bar_promocode">Free shipping over $100, CODE: <strong>SHIPFREE99</strong> </div>
+        -->
+           <!--Customer-->
+      <div class="cb-hdr-cust" >
+        <ul>
+          <li > <img height="20px" width="20px" src="https://cdn.shopify.com/s/files/1/1213/3976/files/globe.png?8195076532767170212"> <a href="http://hk.charliebanana.com">HK</a></li>
+          <li > <a href="https://eu.charliebanana.com">EU</a></li>
+          <li > <a href="https://can.charliebanana.com">CAN</a></li>
+          <li > <a href="https://charliebanana.com">US</a></li>
+          <li > <a href="{{ settings.social_blog_link }}">Blog</a></li>
+          <li > <a href="https://charliebanana.com/pages/find-stores ">Find a Store</a></li>
+          {%comment%} 
+          <li > <a href="{{ settings.social_registry_link }}">Registry</a></li>
+          {%endcomment%}
+          {% if shop.customer_accounts_enabled %}
+          <li > <a href="/apps/giftregistry/">Registry</a>
+          <li >   <a href="/account" id="customer_login_link">My Account</a></li>
+
+          {%comment%} 
+          {% if customer %}
+          <li >
+            {% capture first_name %}<a href="/account">{{ customer.first_name }}</a>{% endcapture %}
+            {{ 'layout.customer.logged_in_as_html' | t: first_name: first_name }} &middot; {{ 'layout.customer.log_out' | t | customer_logout_link }}
+          </li>
+          {% else %}
+          <li >
+            {{ 'layout.customer.sign_in' | t | customer_login_link }} </li>
+          <li >
+            {{ 'layout.customer.create_account' | t | customer_register_link }}
+          </li>
+          {% endif %}
+          {%endcomment%}
+
+          {% endif %}
+       <!--   <li>   
+            <i class="fa fa-heart" aria-hidden="true"></i>
+           </li>  -->
+          
+        </ul>
+      </div>
+
+      
+ <!--Search-->
+      <div class="cb-site-hdr-search" >
+        <!-- Search -->
+        <a href="/search" class="search-bar">
+          <div class="icon icon-search" aria-hidden="true" style=""></div>
+        </a>
+        <!--End of Search -->
+      </div>
+
+
+      
+      {%comment%}<div class="header_text">
+		<div class="cb-site-hdr-msg2">
+        	{{ section.settings.header_message2 | replace: '<p>', '' | replace: '</p>', '' }}
+      	</div>
+        
+	
+      </div>{%endcomment%}
+      <div class="cb-site-hdr-msg1 hdr-txt">
+        {% if section.settings.header_message != blank or shop.customer_accounts_enabled %}
+        <div class="{% if section.settings.header_message == blank %} medium-down--hide{% endif %}">
+          {% if section.settings.header_message != blank %}
+          <div class="header_text">
+            {{ section.settings.header_message | replace: '<p>', '' | replace: '</p>', '' }}
+            <span class="hdr-btn"><a href="{{section.settings.header_link}}">{{section.settings.header_button}}</a></span>
+          </div>
+          
+          <div class="header_btn">
+             
+          </div>
+          {% endif %}
+         
+          <!--<br class="medium-down--hide">-->
+          {% endif %}
+        </div>
+      </div>
+      {%comment%}
+      {%endcomment%}
+
+
+    </div>
+  </div>
+
+
+
+</header>
+
+
+
+<!--Logo-->
+<div class="cb-logo-wrapper" role="banner">    
+  <a href="/" >
+    <!--<img class="cb-logo" src="{{ 'cb-logo.png' | file_url }}">-->
+    <img class="cb-logo" src="{{ 'CB-logo-USA.png' | asset_url }}">
+  </a>
+</div>
+
+{% comment %}
+<div class="cb-logo-text-wrapper">
+  <div class="cb_nav_font_logo cb-logo-text">
+    <font class="cb_nav_font_logo_larger">C</font><font class="cb_nav_font_logo_smaller">HARLIE </font>
+    <font class="cb_nav_font_logo_larger">B</font><font class="cb_nav_font_logo_smaller">ANANA</font><sup>®</sup>
+  </div>
+</div>
+{% endcomment %}
+
+
+
+
+<nav class="nav-bar" role="navigation">
+  <div class="wrapper">
+    {% include 'search-bar' %}
+    {% include 'site-nav' %}
+  </div>
+</nav>
+
+<div id="mobileNavBar">
+  
+  <div class="cb-site-hdr-msg1 hdr-txt mobile">
+        {% if section.settings.header_message != blank or shop.customer_accounts_enabled %}
+        <div class="{% if section.settings.header_message == blank %} medium-down--hide{% endif %}">
+          {% if section.settings.header_message != blank %}
+          <div class="header_text">
+            {{ section.settings.header_message | replace: '<p>', '' | replace: '</p>', '' }}
+            <span class="hdr-btn"><a href="{{section.settings.header_link}}">{{section.settings.header_button}}</a></span>
+          </div>
+          
+          <div class="header_btn">
+             
+          </div>
+          {% endif %}
+         
+          <!--<br class="medium-down--hide">-->
+          {% endif %}
+        </div>
+      </div>
+      <div class="mobile_nav">
+        <div class="display-table-cell ">
+          <a class="menu-toggle mobileNavBar-link"><span class="icon icon-hamburger"></span>{{ 'layout.navigation.mobile_menu' | t }}</a>
+        </div>
+        <div class="display-table-cell">
+          <a href="/cart" class="cart-toggle mobileNavBar-link">
+            {{ 'layout.cart.cart' | t }} <span class="cart-count {% if cart.item_count == 0 %}hidden-count{% endif %}">{{ cart.item_count }}</span><span class="img"> <img src="{{ 'cart.png' | file_url }}"></span>
+          </a>
+        </div>
+    </div>
+</div>
+
+
+
+
+{% schema %}
+{
+"name": "Header",
+"class": "header-section",
+"settings": [
+{
+"type": "header",
+"content": "Logo"
+},
+{
+"type": "image_picker",
+"id": "logo",
+"label": "Custom logo",
+"info": "400px wide .png recommended"
+},
+{
+"type": "text",
+"id": "logo_max_width",
+"label": "Custom logo width",
+"default": "305"
+},
+{
+"type": "header",
+"content": "Message"
+},
+{
+"type": "html",
+"id": "header_message",
+"label": "Text",
+"info": "55 characters max"
+},
+{
+"type": "header",
+"content": "Message"
+},
+{
+"type": "html",
+"id": "header_message2",
+"label": "Text",
+"info": "55 characters max"
+},
+{
+"type": "text",
+"id": "header_button",
+"label": "Button"
+},
+{
+"type": "url",
+"id": "header_link",
+"label": "Button link"
+}
+]
+}
+{% endschema %}

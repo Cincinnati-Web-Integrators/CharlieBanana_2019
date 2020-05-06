@@ -1,0 +1,864 @@
+{
+  "current": {
+    "cb_slideshow_hdr_txt_color": "#ffffff",
+    "cb_slideshow_hdr_bgcolor": "rgba(0,0,0,0)",
+    "cb_slideshow_bdy_txt_color": "#ffffff",
+    "cb_slideshow_bdy_bgcolor": "rgba(0,0,0,0)",
+    "cb_slideshow_btn_txt_color": "#ffffff",
+    "cb_slideshow_btn_bgcolor": "#82d2e5",
+    "htag_color": "#83d2e5",
+    "htag_bgcolor": "rgba(0,0,0,0)",
+    "color_primary": "#000000",
+    "color_secondary": "#fbfbfb",
+    "color_accent": "#ffffff",
+    "color_body_bg": "#ffffff",
+    "color_borders": "#dcdcdc",
+    "product_reviews_star_color": "#e5c649",
+    "color_header_background": "#82d2e5",
+    "color_header_text": "#ffffff",
+    "color_header_cart_search": "rgba(0,0,0,0)",
+    "color_nav_bg": "#ffffff",
+    "color_nav_text": "#000000",
+    "color_body_text": "#242424",
+    "color_heading_text": "#242424",
+    "color_footer_bg": "#82d2e5",
+    "color_footer_text": "#242424",
+    "color_footer_social_link": "#ffffff",
+    "type_base_family": "'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+    "type_base_size": "14px",
+    "type_header_family": "Google_PT+Serif_400_serif",
+    "type_header_size": "3.5vmin",
+    "type_header_transform": false,
+    "type_accent_family": "'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+    "type_navigation_size": "14px",
+    "type_navigation_transform": false,
+    "type_button_size": "12px",
+    "type_button_transform": false,
+    "type_button_transform_uppercase": false,
+    "favicon": "shopify:\/\/shop_images\/Logo_no_heart.png",
+    "cart_notes_enable": false,
+    "ajax_cart_method": "modal",
+    "social_blog_link": "\/blogs\/blog\/",
+    "social_registry_link": "https:\/\/charliebanana.myshopify.com\/",
+    "social_twitter_link": "https:\/\/twitter.com\/CharlieBanana",
+    "social_facebook_link": "https:\/\/www.facebook.com\/lovecharliebanana",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/charliebanana\/",
+    "social_google_plus_link": "",
+    "social_instagram_link": "https:\/\/instagram.com\/lovecharliebanana\/",
+    "social_tumblr_link": "",
+    "social_youtube_link": "https:\/\/www.youtube.com\/user\/lovecharliebanana",
+    "social_vimeo_link": "",
+    "social_fancy_link": "",
+    "social_sharing_style": "is-default",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "show_dollar_symbol": true,
+    "superscript_decimals": false,
+    "redirect_use": true,
+    "redirect_popup": false,
+    "redirect_force": false,
+    "redirect_1": "HK::Hong Kong::http:\/\/hk.charliebanana.com\/",
+    "redirect_2": "CN::China::http:\/\/hk.charliebanana.com\/",
+    "redirect_3": "",
+    "redirect_4": "",
+    "redirect_5": "",
+    "redirect_6": "",
+    "redirect_7": "",
+    "redirect_8": "",
+    "redirect_9": "",
+    "redirect_10": "",
+    "redirect_catch_all_countries": "AD, AL, AM, AT, BE, BG, BY, CH, CY, CZ, DE, DK, EE, ES, FR, DE, GB, GR, HR, HU, IE, IT, LI, LT, LU, LV, ME, MT, NO, PL, RO, RS, RU, SI, SK, SZ, TR, UA, VA",
+    "redirect_catch_all_url": "https:\/\/eu.charliebanana.com\/",
+    "redirect_catch_all_name": "",
+    "redirect_from_message": "Seems like you're in",
+    "redirect_to_message": "Would you like to go to the",
+    "redirect_approve": "Yes, please!",
+    "redirect_decline": "No thanks!",
+    "redirect_bg_color": "#f6fc00",
+    "redirect_color": "#040404",
+    "redirect_link_color": "#64b5eb",
+    "redirect_link_hover_color": "#438cbd",
+    "redirect_popup_logo": false,
+    "redirect_popup_from_message": "",
+    "redirect_popup_text": "",
+    "redirect_popup_text_size": "",
+    "redirect_popup_yes": "",
+    "redirect_popup_yes_color": "",
+    "redirect_popup_yes_text_color": "",
+    "redirect_popup_no": "",
+    "redirect_popup_no_color": "",
+    "redirect_popup_no_text_color": "",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/CB_with_US-01.jpg",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#82d2e5",
+    "checkout_button_color": "#82d2e5",
+    "checkout_error_color": "#faa6f2",
+    "htag_color_primary": "#83d2e5",
+    "collection_sidebar_filters": "tags",
+    "remove_dollar_symbol": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "",
+          "logo_max_width": "1",
+          "header_message": "",
+          "header_message2": "",
+          "header_button": "",
+          "header_link": ""
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "grid": "4",
+          "rows": "6",
+          "collection_sidebar_filters": "tags",
+          "product_show_compare_at_price": true,
+          "product_show_saved_amount": true,
+          "product_reviews_enable": false
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "social_sharing_blog": true
+        }
+      },
+      "1481961513902": {
+        "type": "advanced-content",
+        "blocks": {
+          "1481961513902-0": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"love-charlie-top\">\n  <div class=\"left-sec-charlie\">\n    <h1 class=\"cb-section-hdr\" style=\"text-align:center;\"> Follow @LoveCharlieBanana on Instagram<\/h1>\n\n  <\/div>\n\n  <script src=\"https:\/\/like2have.it\/embed.js?id=ec0a0190-75f7-44ed-9fc4-d4cd3c122697&type=grid&rows=2&cols=4\" id=\"l2h-widget-ec0a0190-75f7-44ed-9fc4-d4cd3c122697\" async=\"\"><\/script>\n<\/div>",
+              "width": "100%",
+              "alignment": "top-middle",
+              "gutter": "yes",
+              "background_color_advanced_content": "rgba(0,0,0,0)"
+            }
+          }
+        },
+        "block_order": [
+          "1481961513902-0"
+        ],
+        "settings": {}
+      },
+      "1482929268492": {
+        "type": "CB-Custom-Slideshow",
+        "blocks": {
+          "1486330171403": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/Swim_mid_slider_2.jpg",
+              "link": "https:\/\/charliebanana.myshopify.com\/collections\/swim-diapers-1\/New-to-Swim",
+              "cb_slider_header_text": "",
+              "cb_slider_body_text": "",
+              "cb_slider_button_text": ""
+            }
+          },
+          "1486330090836": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/Mid_Slider_2.jpg",
+              "link": "https:\/\/charliebanana.myshopify.com\/collections\/potty-training-1\/extraordinary-training-pants-with-snaps",
+              "cb_slider_header_text": "",
+              "cb_slider_body_text": "",
+              "cb_slider_button_text": ""
+            }
+          },
+          "1486708221795": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/Mid-Slider-3.jpg",
+              "link": "https:\/\/charliebanana.myshopify.com\/collections\/swim-diapers-1\/reusable-swim-diaper",
+              "cb_slider_header_text": "",
+              "cb_slider_body_text": "",
+              "cb_slider_button_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "1486330171403",
+          "1486330090836",
+          "1486708221795"
+        ],
+        "settings": {
+          "slider_home_auto": false,
+          "slider_home_rate": "5000"
+        }
+      },
+      "1482987086470": {
+        "type": "CB-Image-Grid",
+        "blocks": {
+          "1482987154547": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/MBawardsshortlist2018_forwebcopyB_copy_3a5a5700-1ac3-4708-a621-3e92db895c8a.jpg",
+              "link": "shopify:\/\/pages\/awards"
+            }
+          },
+          "1489808091143": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/Over_1_Million_Sold-01.jpg",
+              "link": "shopify:\/\/pages\/awards"
+            }
+          },
+          "1489808112031": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/award-2.jpg",
+              "link": "shopify:\/\/pages\/awards"
+            }
+          },
+          "1482987236234": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/award-3.jpg",
+              "link": "shopify:\/\/pages\/awards"
+            }
+          },
+          "1482987796863": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/award-4.jpg",
+              "link": "shopify:\/\/pages\/awards"
+            }
+          },
+          "1482987183909": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/2018TheCribsieAwards_120pixspace_copy_copy.jpg",
+              "link": "shopify:\/\/pages\/awards"
+            }
+          }
+        },
+        "block_order": [
+          "1482987154547",
+          "1489808091143",
+          "1489808112031",
+          "1482987236234",
+          "1482987796863",
+          "1482987183909"
+        ],
+        "settings": {
+          "grid_cols_per_row": "6",
+          "header_text": "Awards"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "menu": {
+            "type": "menu",
+            "settings": {
+              "title": "About",
+              "menu": "footer",
+              "width": "25%"
+            }
+          },
+          "1481943227603": {
+            "type": "menu",
+            "settings": {
+              "title": "Press",
+              "menu": "footer-menu-2",
+              "width": "25%"
+            }
+          },
+          "1481943431451": {
+            "type": "menu",
+            "settings": {
+              "title": "Customer Service",
+              "menu": "footer-menu-3",
+              "width": "25%"
+            }
+          },
+          "1483159867469": {
+            "type": "menu",
+            "settings": {
+              "title": "Retailers & Affiliates",
+              "menu": "footer-menu-5",
+              "width": "25%"
+            }
+          },
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "title": "",
+              "width": "100%"
+            }
+          }
+        },
+        "block_order": [
+          "menu",
+          "1481943227603",
+          "1481943431451",
+          "1483159867469",
+          "newsletter"
+        ],
+        "settings": {
+          "social_enabled": true,
+          "legal_menu": "",
+          "copyright": "<p><em><sup>© Charlie Banana USA LLC | ALL RIGHTS RESERVED. | <a href=\"\/sitemap.xml\">Sitemap<\/a> | <a href=\"\/pages\/disclaimer\">Disclaimer<\/a> | <a href=\"\/pages\/privacy-policy\">Privacy Policy<\/a> | <a href=\"\/pages\/use-submission-terms-and-conditions\">User Submission Terms and Conditions<\/a><\/sup><\/em><\/p>"
+        }
+      },
+      "1483186263263": {
+        "type": "CB-Custom-Slideshow",
+        "blocks": {
+          "1558673834345": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/Sophie_Birthday_web.jpg",
+              "link": "shopify:\/\/collections\/sophie-la-girafe",
+              "cb_slider_header_text": "",
+              "cb_slider_body_text": "",
+              "cb_slider_button_text": ""
+            }
+          },
+          "1557573713406": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/sophie_giraffe.jpg",
+              "link": "shopify:\/\/collections\/sophie-la-girafe",
+              "cb_slider_header_text": "",
+              "cb_slider_body_text": "",
+              "cb_slider_button_text": "Button Text"
+            }
+          },
+          "1557573941041": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/sophie-girafe.jpg",
+              "link": "shopify:\/\/collections\/sophie-la-girafe",
+              "cb_slider_header_text": "",
+              "cb_slider_body_text": "",
+              "cb_slider_button_text": ""
+            }
+          },
+          "1525065703106": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/Web_banner_Rash_Guard_B-01_bca4e149-5a39-45f6-9d30-cc5117edd8cb.jpg",
+              "link": "https:\/\/charliebanana.com\/collections\/swim-diapers-1\/New-to-Swim",
+              "cb_slider_header_text": "",
+              "cb_slider_body_text": "",
+              "cb_slider_button_text": ""
+            }
+          },
+          "1486606382177": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/GDHC-HPS.jpg",
+              "link": "https:\/\/charliebanana.myshopify.com\/collections\/diapering\/New-Print",
+              "cb_slider_header_text": "",
+              "cb_slider_body_text": "",
+              "cb_slider_button_text": ""
+            }
+          },
+          "1486703763107": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/Loving-It-HPS.jpg",
+              "link": "https:\/\/charliebanana.myshopify.com\/collections\/accessories-1",
+              "cb_slider_header_text": "",
+              "cb_slider_body_text": "Body Text",
+              "cb_slider_button_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "1558673834345",
+          "1557573713406",
+          "1557573941041",
+          "1525065703106",
+          "1486606382177",
+          "1486703763107"
+        ],
+        "settings": {
+          "slider_home_auto": true,
+          "slider_home_rate": "5000"
+        }
+      },
+      "1483224324105": {
+        "type": "CB-Image-Grid",
+        "blocks": {
+          "1486329912336": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/WahtsNew.png",
+              "link": "shopify:\/\/collections\/new-products-1"
+            }
+          },
+          "1486329984804": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/Cloth_Rocks.png",
+              "link": "shopify:\/\/pages\/why-cloth"
+            }
+          },
+          "1486329967644": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/Feminine_pad.png",
+              "link": "https:\/\/ul5sej11fx7xa6sn-12133976.shopifypreview.com\/blogs\/blog\/articles?preview_key=f95847fcb1bfea17cfcfdfcc41b32970"
+            }
+          }
+        },
+        "block_order": [
+          "1486329912336",
+          "1486329984804",
+          "1486329967644"
+        ],
+        "settings": {
+          "grid_cols_per_row": "3",
+          "header_text": ""
+        }
+      },
+      "cb-logo": {
+        "type": "cb-logo",
+        "settings": {}
+      },
+      "1486451066602": {
+        "type": "advanced-content",
+        "blocks": {
+          "1486451066602-0": {
+            "type": "html",
+            "settings": {
+              "code": "<div style=\"background-color: #83d2e5; margin-bottom: -10px; min-width:50%;\">\r\n<a href=\"https:\/\/www.youtube.com\/watch?v=i_aKhCeMFBc\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1213\/3976\/files\/home-video-2.jpg?12607370414076897445\"><\/a>\r\n<\/div>",
+              "width": "50%",
+              "alignment": "top-middle",
+              "gutter": "yes",
+              "background_color_advanced_content": "rgba(0,0,0,0)"
+            }
+          },
+          "1486451092917": {
+            "type": "html",
+            "settings": {
+              "code": "<a href=\"https:\/\/charliebanana.myshopify.com\/pages\/make-it-work\"><div style=\"text-align:center; color: #FFF; margin-right: 6%; margin-top: 6%; margin-bottom: 6%; min-width: 50%;\">\r\n<h2 style=\"color: #FFF;\">\r\nHow to Cloth Diaper Successfully<\/h2>\r\nWhether you choose cloth to save the environment or money, you've made the right choice! Watch this video featuring Founder and Mompreneur Gaëlle Wizenberg to see why you should #GoClothYourself :)\r\n<br>\r\n<span style=\"font-family: Georgia; color: #ff3399;\"><i>xo,<\/i><\/span><br> Charlie Banana\r\n<\/div><\/a>",
+              "width": "50%",
+              "alignment": "top-middle",
+              "gutter": "yes",
+              "background_color_advanced_content": "#83d2e5"
+            }
+          }
+        },
+        "block_order": [
+          "1486451066602-0",
+          "1486451092917"
+        ],
+        "settings": {}
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "product_image_zoom_enable": true,
+          "product_quantity_enable": false,
+          "product_quantity_message": false,
+          "product_incoming_message": false,
+          "product_vendor_enable": false,
+          "product_show_saved_amount": true,
+          "product_show_compare_at_price": false,
+          "related_products_enable": false,
+          "social_sharing_products": true,
+          "product_reviews_enable": false
+        }
+      },
+      "1586410935729": {
+        "type": "free-ship",
+        "settings": {
+          "free_shipp": "shopify:\/\/shop_images\/Free_shipping_Banner-US.png"
+        }
+      }
+    },
+    "content_for_index": [
+      "1586410935729",
+      "1483186263263",
+      "1483224324105",
+      "1486451066602",
+      "1482929268492",
+      "1481961513902",
+      "1482987086470"
+    ]
+  },
+  "presets": {
+    "Blue": {
+      "ajax_cart_method": "modal",
+      "cart_notes_enable": false,
+      "collection_sidebar_filters": "tags",
+      "color_accent": "#dd2525",
+      "color_body_bg": "#fff",
+      "color_body_text": "#585858",
+      "color_borders": "#ececec",
+      "color_footer_bg": "#f2f2f2",
+      "color_footer_social_link": "#bbbbbb",
+      "color_footer_text": "#636363",
+      "color_header_background": "#182e49",
+      "color_header_cart_search": "#0f243d",
+      "color_header_text": "#fff",
+      "color_heading_text": "#000",
+      "color_nav_bg": "#182e49",
+      "color_nav_text": "#fff",
+      "color_primary": "#528ec1",
+      "color_secondary": "#dcdcdc",
+      "share_facebook": true,
+      "share_pinterest": true,
+      "share_twitter": true,
+      "social_facebook_link": "",
+      "social_fancy_link": "",
+      "social_google_plus_link": "",
+      "social_instagram_link": "",
+      "social_pinterest_link": "",
+      "social_sharing_style": "is-normal",
+      "social_tumblr_link": "",
+      "social_twitter_link": "",
+      "social_vimeo_link": "",
+      "social_youtube_link": "",
+      "type_accent_family": "Google_Montserrat_400_sans",
+      "type_base_family": "Google_Montserrat_400,700_sans",
+      "type_base_size": "13px",
+      "type_button_size": "14px",
+      "type_button_transform": true,
+      "type_header_family": "Google_Montserrat_700_sans",
+      "type_header_transform": true,
+      "type_navigation_size": "14px",
+      "type_navigation_transform": true,
+      "remove_dollar_symbol": false,
+      "superscript_decimals": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": "305",
+            "header_message": ""
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu": {
+              "type": "menu",
+              "settings": {
+                "title": "Quick links",
+                "menu": "",
+                "width": "16%"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "title": "Get in touch",
+                "richtext": "<p>Use this text to share information about your brand with your customers.<\/p>",
+                "width": "50%"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "width": "33%"
+              }
+            }
+          },
+          "block_order": [
+            "menu",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "social_enabled": false,
+            "legal_menu": ""
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            },
+            "slide-2": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1",
+            "slide-2"
+          ],
+          "settings": {
+            "slider_home_auto": false,
+            "slider_home_rate": "5000"
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-list-0": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            },
+            "collection-list-1": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-list-0",
+            "collection-list-1"
+          ],
+          "settings": {}
+        },
+        "collection-row-1": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": "4"
+          }
+        },
+        "collection-row-2": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": "4"
+          }
+        },
+        "collection-row-3": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": "4"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "collection-list",
+        "collection-row-1",
+        "collection-row-2",
+        "collection-row-3"
+      ]
+    },
+    "Light": {
+      "ajax_cart_method": "modal",
+      "cart_notes_enable": false,
+      "collection_sidebar_filters": "tags",
+      "color_accent": "#545454",
+      "color_body_bg": "#f3f3f3",
+      "color_body_text": "#858585",
+      "color_borders": "rgba(0,0,0,0)",
+      "color_footer_bg": "#ffffff",
+      "color_footer_social_link": "#545454",
+      "color_footer_text": "#545454",
+      "color_header_background": "#ffffff",
+      "color_header_cart_search": "#f3f3f3",
+      "color_header_text": "#545454",
+      "color_heading_text": "#2f2f2f",
+      "color_nav_bg": "#9c756f",
+      "color_nav_text": "#ffffff",
+      "color_primary": "#9c756f",
+      "color_secondary": "#f3f3f3",
+      "share_facebook": true,
+      "share_pinterest": true,
+      "share_twitter": true,
+      "social_facebook_link": "",
+      "social_google_plus_link": "",
+      "social_instagram_link": "",
+      "social_sharing_style": "is-normal",
+      "social_twitter_link": "",
+      "type_accent_family": "Google_Lato_700_sans",
+      "type_base_family": "Google_Roboto_400,700_sans",
+      "type_base_size": "14px",
+      "type_button_size": "14px",
+      "type_button_transform": true,
+      "type_header_family": "TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif",
+      "type_header_transform": false,
+      "type_navigation_size": "14px",
+      "type_navigation_transform": true,
+      "remove_dollar_symbol": false,
+      "superscript_decimals": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": "305",
+            "header_message": "<p>qweqweq<\/p>"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu": {
+              "type": "menu",
+              "settings": {
+                "title": "Quick links",
+                "menu": "",
+                "width": "16%"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "title": "Get in touch",
+                "richtext": "<p>Use this text to share information about your brand with your customers.<\/p>",
+                "width": "50%"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "width": "33%"
+              }
+            }
+          },
+          "block_order": [
+            "menu",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "social_enabled": false,
+            "legal_menu": ""
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0"
+          ],
+          "settings": {
+            "slider_home_auto": false,
+            "slider_home_rate": "5000"
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-list-0": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            },
+            "collection-list-1": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-list-0",
+            "collection-list-1"
+          ],
+          "settings": {}
+        },
+        "collection-row-1": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": "4"
+          }
+        },
+        "collection-row-2": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": "4"
+          }
+        },
+        "collection-row-3": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": "4"
+          }
+        },
+        "featured-content": {
+          "type": "featured-content",
+          "blocks": {
+            "featured-content-0": {
+              "type": "text",
+              "settings": {
+                "title": "Talk about your brand",
+                "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "featured-content-0"
+          ],
+          "settings": {}
+        },
+        "slideshow-2": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-2-0": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-2-0"
+          ],
+          "settings": {
+            "slider_home_auto": false,
+            "slider_home_rate": "5000"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "collection-list",
+        "collection-row-1",
+        "collection-row-2",
+        "collection-row-3",
+        "slideshow-2",
+        "featured-content"
+      ]
+    }
+  }
+}

@@ -1,0 +1,668 @@
+{
+  "date_formats": {
+    "month_day_year": "%b %d, %Y"
+  },
+  "general": {
+    "meta": {
+      "tags": "Tagged \"{{ tags }}\"",
+      "page": "Page {{ page }}"
+    },
+    "404": {
+      "title": "404 Page Not Found",
+      "subtext_html": "The page you requested does not exist. Click <a href=\"\/collections\/all\">here<\/a> to continue shopping."
+    },
+    "password_page": {
+      "spread_the_word": "Spread the word:",
+      "login_form_heading": "Enter store using password:",
+      "login_form_password_label": "Password",
+      "login_form_password_placeholder": "Your password",
+      "login_form_submit": "Enter",
+      "signup_form_email_label": "Email",
+      "signup_form_success": "We will send you an email right before we open!",
+      "admin_link_html": "Are you the store owner? <a href=\"\/admin\" class=\"text-link\">Log in here<\/a>",
+      "password_link": "Enter using password",
+      "powered_by_shopify_html": "This shop will be powered by {{ shopify }}",
+      "close": "Close"
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "home_link_title": "Back to the frontpage"
+    },
+    "forms": {
+      "post_field_error_html": "The <strong>{{ field }}<\/strong> {{ error }}"
+    },
+    "search": {
+      "no_results_html": "Your search for \"{{ terms }}\" did not yield any results.",
+      "results_for_html": "Your search for \"{{ terms }}\" revealed the following:",
+      "title": "Search for products on our site"
+    },
+    "social": {
+      "share_on_facebook": "Share",
+      "share_on_twitter": "Tweet",
+      "share_on_pinterest": "Pin it",
+      "alt_text": {
+        "share_on_facebook": "Share on Facebook",
+        "share_on_twitter": "Tweet on Twitter",
+        "share_on_pinterest": "Pin on Pinterest"
+      }
+    }
+  },
+  "blogs": {
+    "article": {
+      "author_on_date_html": "Posted by {{ author }} on {{ date }}",
+      "older_post": "Older Post",
+      "newer_post": "Newer Post",
+      "tags": "Tags",
+      "comment_meta_html": "{{ author }} on {{ date }}",
+      "read_more": "Read more",
+      "share_this_post": "Share this post"
+    },
+    "comments": {
+      "title": "Leave a comment",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "post": "Post comment",
+      "moderated": "Please note, comments must be approved before they are published.",
+      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
+      "success": "Your comment was posted successfully! Thank you!",
+      "with_count": {
+        "zero": "0 comment",
+        "one": "1 comment",
+        "other": "{{ count }} comments"
+      }
+    },
+    "sidebar": {
+      "recent_articles": "Recent Articles",
+      "categories": "Categories"
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Shopping Cart",
+      "remove": "Remove",
+      "note": "Special instructions for seller",
+      "subtotal": "Subtotal",
+      "update": "Update cart",
+      "checkout": "Checkout",
+      "empty": "Your cart is currently empty.",
+      "continue_browsing_html": "Continue browsing <a href=\"\/collections\/all\">here<\/a>.",
+      "or": "or",
+      "view_cart": "View Cart",
+      "close_cart": "Close Cart",
+      "savings_html": "You're saving {{ price }}",
+      "taxes_extra": "Shipping, taxes, and discounts will be calculated at checkout."
+    }
+  },
+  "collections": {
+    "general": {
+      "no_matches": "Sorry, there are no products matching your search.",
+      "link_title": "Browse our {{ title }} collection",
+      "items_with_count": {
+        "zero": "0 item",
+        "one": "1 item",
+        "other": "{{ count }} items"
+      }
+    },
+    "sidebar": {
+      "filters": "Filters",
+      "shop_by": "Shop By",
+      "all": "All",
+      "all_collection": "All {{ collection_title }}",
+      "no_tags": "Add tags to your products for this list to build itself."
+    },
+    "sorting": {
+      "title": "Sort by",
+      "featured": "Featured",
+      "best_selling": "Best Selling",
+      "az": "Alphabetically, A-Z",
+      "za": "Alphabetically, Z-A",
+      "price_ascending": "Price, low to high",
+      "price_descending": "Price, high to low",
+      "date_descending": "Date, new to old",
+      "date_ascending": "Date, old to new"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "message": "What's on your mind?",
+      "send": "Send",
+      "post_success": "Thanks for contacting us. We'll get back to you as soon as possible."
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "My Account",
+      "details": "Account Details",
+      "view_addresses": "View Addresses",
+      "return": "Return to Account Details"
+    },
+    "activate_account": {
+      "title": "Activate Account",
+      "subtext": "Create your password to activate your account.",
+      "password": "Password",
+      "password_confirm": "Confirm Password",
+      "submit": "Activate Account",
+      "cancel": "Decline Invitation"
+    },
+    "addresses": {
+      "title": "Your Addresses",
+      "default": "Default",
+      "add_new": "Add a New Address",
+      "edit_address": "Edit address",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "company": "Company",
+      "address1": "Address1",
+      "address2": "Address2",
+      "city": "City",
+      "country": "Country",
+      "province": "Province",
+      "zip": "Postal\/Zip Code",
+      "phone": "Phone # (Required for Shipping)",
+      "set_default": "Set as default address?",
+      "add": "Add Address",
+      "update": "Update Address",
+      "or": "or",
+      "cancel": "Cancel",
+      "edit": "Edit",
+      "delete": "Delete",
+      "delete_confirm": "Are you sure you wish to delete this address?"
+    },
+    "login": {
+      "title": "Login",
+      "email": "Email",
+      "password": "Password",
+      "forgot_password": "Forgot your password?",
+      "sign_in": "Sign In",
+      "or": "or",
+      "cancel": "Return to Store",
+      "guest_title": "Continue as a guest",
+      "guest_continue": "Let's go"
+    },
+    "orders": {
+      "title": "Order History",
+      "order_number": "Order",
+      "date": "Date",
+      "payment_status": "Payment Status",
+      "fulfillment_status": "Fulfillment Status",
+      "total": "Total",
+      "none": "You haven't placed any orders yet."
+    },
+    "order": {
+      "title": "Order {{ name }}",
+      "placed_on_date_html": "Placed on {{ date }}",
+      "cancelled_on": "Order Cancelled on {{ date }}",
+      "cancel_reason": "Reason",
+      "billing_address": "Billing Address",
+      "payment_status": "Payment Status",
+      "shipping_address": "Shipping Address",
+      "fulfillment_status": "Fulfillment Status",
+      "discount": "Discount",
+      "shipping": "Shipping",
+      "tax": "Tax",
+      "product": "Product",
+      "sku": "SKU",
+      "price": "Price",
+      "quantity": "Quantity",
+      "total": "Total",
+      "fulfilled_on": "Fulfilled on {{ date }}",
+      "subtotal": "Subtotal"
+    },
+    "recover_password": {
+      "title": "Reset your password",
+      "email": "Email",
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "subtext": "We will send you an email to reset your password."
+    },
+    "reset_password": {
+      "title": "Reset account password",
+      "subtext": "Enter a new password for {{ email }}",
+      "password": "Password",
+      "password_confirm": "Confirm Password",
+      "submit": "Reset Password"
+    },
+    "register": {
+      "title": "Create Account",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Create",
+      "or": "or",
+      "cancel": "Return to Store"
+    }
+  },
+  "homepage": {
+    "featured_collections": {
+      "heading": "Shop For",
+      "more_categories": "More categories",
+      "no_collections_html": "You don't have any collections to show here. <a href=\"\/admin\/themes\/\">Add some featured collections<\/a> in your theme settings.",
+      "example_collection": "Example Collection"
+    },
+    "featured_collection_rows": {
+      "heading": "Featured Collection",
+      "more": "More",
+      "example_product_title": "Example Product Title",
+      "more_in_collection": "More {{ collection_title }}"
+    },
+    "onboarding": {
+      "no_content": "This section doesn’t currently include any content. Add content to this section using the sidebar."
+    }
+  },
+  "layout": {
+    "cart": {
+      "cart": "Cart"
+    },
+    "customer": {
+      "view_account": "View Account",
+      "logged_in_as_html": "Logged in as {{ first_name }}",
+      "log_out": "Log out",
+      "sign_in": "Sign in",
+      "create_account": "New Account",
+      "or": "or"
+    },
+    "navigation": {
+      "mobile_menu": "Menu",
+      "more": "More"
+    },
+    "search_bar": {
+      "placeholder": "Search all products...",
+      "submit": "Search"
+    },
+    "footer": {
+      "theme_settings": "Theme Settings",
+      "instructions_for_linklist_html": "Pick a link list to show here in your {{ theme_settings_link }} under {{ theme_settings_footer_linklist_path }}.",
+      "instructions_for_text_content_html": "Add some text to show here in your {{ theme_settings_link }}.",
+      "store_on_social_network": "{{ store_name }} on {{ social_network }}",
+      "newsletter_sign_up": "Sign Up",
+      "newsletter_email_placeholder": "Email Address",
+      "newsletter_confirmation": "Thanks for subscribing"
+    }
+  },
+  "products": {
+    "general": {
+      "related_products": "We Also Recommend",
+      "save_html": "Save {{ saved_amount }}",
+      "sale_price": "Sale price",
+      "regular_price": "Regular price"
+    },
+    "product": {
+      "sold_out": "Sold Out",
+      "will_not_ship_until": "Will not ship until {{ date }}",
+      "quantity": "Quantity",
+      "add_to_cart": "Add to Cart",
+      "unavailable": "Unavailable",
+      "will_be_in_stock_after": "Will be in stock after {{ date }}",
+      "only_left": "Only {{ count }} left!"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "Here's your {{ value }} gift card for {{ shop }}!",
+      "subtext": "Here's your gift card!",
+      "disabled": "Disabled",
+      "expired": "Expired on {{ expiry }}",
+      "active": "Expires on {{ expiry }}",
+      "redeem": "Use this code at checkout to redeem your gift card",
+      "shop_link": "Start shopping",
+      "print": "Print",
+      "add_to_apple_wallet": "Add to Apple Wallet"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "page_title": "Checkout",
+        "continue_button_label": "Continue",
+        "complete_purchase_button_label": "Complete Order",
+        "edit_link_label": "Edit",
+        "all_rights_reserved": "All Rights Reserved {{shop.name}}",
+        "print_policies_link_label": "Print",
+        "cart": "Cart",
+        "close_modal_label": "Close",
+        "continue_to_shipping_method": "Shipping Method",
+        "continue_to_payment_method": "Payment Method",
+        "continue_to_review": "Review Order",
+        "back_to_cart": "Return to Cart",
+        "back_to_contact_information": "Return to Customer Information",
+        "back_to_shipping_method": "Return to Shipping Method",
+        "back_to_payment_method": "Return to Payment Method",
+        "edit_shipping_address": "Edit Shipping Address",
+        "edit_shipping_method": "Edit Shipping Method",
+        "edit_payment_method": "Edit Payment Method",
+        "edit_billing_address": "Edit Billing Address",
+        "contact_us_html": "Contact Us",
+        "footer": "Footer"
+      },
+      "contact": {
+        "title": "Customer Information",
+        "address_title": "Address",
+        "country_placeholder": "Country",
+        "shipping_address_title": "Shipping Address",
+        "customer_information_title": "Customer Information",
+        "email_label": "Email Address",
+        "email_placeholder": "Email",
+        "stored_addresses_label": "Stored Addresses",
+        "new_address_label": "New Address",
+        "first_name_label": "First Name",
+        "first_name_placeholder": "First Name",
+        "last_name_label": "Last Name",
+        "last_name_placeholder": "Last Name",
+        "company_label": "Company",
+        "company_placeholder": "Company",
+        "address1_label": "Address 1",
+        "address1_placeholder": "Address",
+        "optional_company_placeholder": "Company",
+        "optional_company_label": "Company",
+        "optional_first_name_placeholder": "First Name",
+        "address2_label": "Apt. , Suite. etc.",
+        "optional_address2_label": "Apt. , Suite. etc",
+        "address2_placeholder": "Apt. , Suite. etc",
+        "optional_address2_placeholder": "Apt. , Suite. etc.",
+        "city_label": "City",
+        "city_placeholder": "City",
+        "country_label": "Country",
+        "province_label": "Province",
+        "province_placeholder": "Province",
+        "phone_label": "Phone # (Required for Shipping)",
+        "optional_phone_label": "Phone",
+        "phone_placeholder": "Phone # (Required for Shipping)",
+        "optional_phone_placeholder": "Phone # (Required for Shipping)",
+        "zip_code_placeholder": "Zip Code",
+        "postal_code_placeholder": "Postal Code",
+        "postcode_placeholder": "Postcode"
+      },
+      "customer_account": {
+        "not_user_label": "Not {{ first.name }}?",
+        "email_suggestion": "Did you mean {{ suggestion }}?",
+        "have_an_account_label": "Already have an account with us?",
+        "sign_in_link_label": "Log In",
+        "sign_out_link_label": "Log Out",
+        "save_my_information_label": "Save this information for next time"
+      },
+      "stock": {
+        "page_title": "Inventory Issues",
+        "title": "Inventory Issues",
+        "items_unavailable_notice": "Some items have become unavailable and your cart has been updated. Sorry for the inconvenience!",
+        "product_column_header": "Products",
+        "quantity_column_header": "Quantity",
+        "price_column_header": "Price",
+        "status_column_header": "Status",
+        "removed_from_cart_notice": "Remove From Cart",
+        "sold_out_label": "Sold Out",
+        "reduced_label": "Reduced",
+        "reduced_with_quantity_label": "Only {{ quantity.available }} left",
+        "remove_from_cart_button_label": "Remove From Cart",
+        "continue_shopping_button_label": "Continue",
+        "go_back_to_cart_button_label": "Shopping Cart"
+      },
+      "order_summary": {
+        "title": "Order Summary",
+        "order_name_label": "Order {{name}}",
+        "shopping_cart_label": "Shopping Cart",
+        "discount_title": "Discount",
+        "discount_label": "Discount",
+        "discount_placeholder": "Discount",
+        "gift_card_title": "Gift Card",
+        "gift_card_label": "Gift Card",
+        "gift_card_and_discount_title": "Gift Card or Discount Code",
+        "gift_card_and_discount_label": "Gift Card and Discount Label",
+        "show_discount_form_link_label": "Click to enter Discount Code",
+        "remove_gift_card_label": "Remove Gift Cards",
+        "remove_discount_label": "Remove Discounts",
+        "free_shipping_discount_label": "Free Shipping",
+        "apply_discount_button_label": "Apply",
+        "cart_does_not_meet_discount_requirements_notice": "Discount code: {{ code }} does not apply to your order.",
+        "discount_requires_customer_notice": "Enter your shipping information to apply the {{code}} discount cod.",
+        "customer_does_not_meet_discount_requirements_notice": "Customer information does not meet  discount requirements to apply the {{code}} discount code",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Shipping information does not meet  discount requirements to apply the {{code}} discount code",
+        "customer_already_used_once_per_customer_discount_notice": "The {{code}} discount code has already been used!",
+        "subtotal_label": "Subtotal",
+        "shipping_label": "Shipping",
+        "shipping_pending_message": "Shipping Pending...",
+        "taxes_label": "Taxes",
+        "total_label": "Total",
+        "free_total_label": "Free",
+        "paid_label": "Paid",
+        "payment_due_label": "Payment Due",
+        "vat_label_html": "Including {{amount}} in taxes",
+        "discount_and_gift_card_savings_notice": "You saved {{ discount_amount }} in discounts, and {{ gift_card_amount }} in gift cards",
+        "discount_savings_notice": "After {{ discount_amount }} in discounts",
+        "gift_card_savings_notice": "After {{ gift_card_amount }} in gift cards",
+        "cost_table_title": "Cost Summary",
+        "description_label": "Description",
+        "price_label": "Price",
+        "quantity_label": "Quantity",
+        "product_image_label": "Product Image",
+        "scroll_order_summary": "Scroll for more items",
+        "collapse_order_summary": "Hide order summary"
+      },
+      "shipping": {
+        "title": "Shipping method",
+        "shipping_method_notice": "Shipping method",
+        "waiting_on_rate_notice": "Checking Shipping Rates...",
+        "no_rates_for_cart_or_destination_notice": "No available shipping method found to your destination!",
+        "no_rates_for_country_notice": "We don't offer shipping to {{ country }}",
+        "no_rates_contact_notice": "Contact us for more information",
+        "free_rate_label": "Free",
+        "please_enter_your_shipping_information_notice": "Please enter your shipping information",
+        "estimated_delivery_date_range": "{{minimum}} to {{ maximum }} business days",
+        "shipping_line_phone_label": "Mobile Phone Number (Required)",
+        "shipping_line_phone": "Your courier may use this number to contact you",
+        "estimated_delivery_date": {
+          "one": "1 Business Day",
+          "other": "{{count}} Business Days"
+        }
+      },
+      "payment": {
+        "title": "Payment Method",
+        "amount_left_to_pay_label": "Payment Due",
+        "gift_card_code_label": "Gift Card Code",
+        "apply_gift_card_button_label": "Apply",
+        "gift_card_balance_label": "Balance",
+        "show_gift_card_form_link_label": "Click here to enter Gift Card",
+        "supported_card_brands_more_label": "and more...",
+        "card_number_label": "Card Number",
+        "card_number_placeholder": "Card Number",
+        "card_pay_with": "Pay With",
+        "card_security_notice": "All transactions are secure and encrypted!",
+        "name_on_card_label": "Name On Card",
+        "name_on_card_placeholder": "Name On Card",
+        "card_expiry_month_label": "Expiration Date",
+        "card_expiry_month_placeholder": "MM",
+        "card_expiry_year_label": "Year",
+        "card_expiry_year_placeholder": "YY",
+        "card_expiry_label": "Expiration",
+        "card_expiry_short_label": "MM \/ YY",
+        "card_expiry_long_label": "Expiration (MM \/ YY)",
+        "card_expiry_placeholder": "MM \/YY",
+        "card_expiry_aria_description": "Example for May 2016: 05\/16",
+        "card_verification_value_label": "CVV",
+        "card_verification_value_placeholder": "CVV",
+        "card_verification_value_explanation": "3-digit security code usually found on the back of your card. American Express cards have a 4-digit code located on the front.",
+        "card_verification_value_explanation_amex": "4-digit code located on the front.",
+        "card_verification_value_explanation_other": "3-digit security code usually found on the back of your card.",
+        "card_start_month_label": "Start Month",
+        "card_start_month_placeholder": "MM",
+        "card_start_year_label": "Start Year",
+        "card_start_year_placeholder": "YY",
+        "card_start_label": "Start",
+        "card_start_long_label": "Issue Date MM \/ YY",
+        "card_start_placeholder": "MM \/ YY",
+        "card_issue_number_label": "Issue Number",
+        "card_issue_number_placeholder": "Issue Number",
+        "card_change_label": "Change",
+        "ends_with_label": "ending with {{ last_digits }}",
+        "same_billing_address_label": "Same shipping address",
+        "different_billing_address_label": "Use different shipping address",
+        "free_order_notice_html": "Your order is <strong>free<\/strong>. No payment is required.",
+        "offsite_gateway_redirect_hint": "You will be redirected to {{ gateway_label }} to complete your purchase securely.",
+        "billing_address_title": "Billing Address",
+        "no_js_credit_card_fields_redirect_hint": "You will be redirected to a payment gateway in order to add your payment information.",
+        "card_fields_processing_error": "An error occurred while processing the payment information. Please try again later.",
+        "technical_error": "Payments can't be processed right now because of technical problems. Please try again in a few minutes.",
+        "no_method_error": "Based on your location or products in your cart, there are no payment methods available.",
+        "not_configured_error": "No payment gateway currently configured.",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Your order is covered by your gift card.",
+          "other": "Your order is covered by your gift card."
+        },
+        "card_fields_unavailable_html": {
+          "one": "Credit and Debit card payments aren't available right now.<br>Please <a href=\"javascript:window.location.reload();\">refresh this page<\/a> or try again later.",
+          "other": "Credit and Debit card payments aren't available right now.<br>Please <a href=\"javascript:window.location.reload();\">refresh this page<\/a> or try again later."
+        }
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Current Balance {{ amount }}",
+        "credit_card_expires_on_notice": "Expires on {{ month }}\/{{ year }}",
+        "express_payment_gateway_label": "Express",
+        "manual_payment_gateway_label": "Manual",
+        "billing_address_title": "Billing address",
+        "free_label": "Free"
+      },
+      "field_errors": {
+        "email_invalid": "Please enter a valid email address",
+        "address_first_name_blank": "Please enter your first name",
+        "address_last_name_blank": "Please enter your last name",
+        "address_address1_blank": "Please enter your address",
+        "address_address2_blank": "Please enter your Apt., Suite, etc.",
+        "address_city_blank": "Please enter your city",
+        "address_country_blank": "Please enter your country",
+        "address_province_blank": "Please enter your State \/ Province",
+        "address_company_blank": "Please enter your company name",
+        "address_phone_blank": "Enter valid phone number",
+        "address_zip_blank": "Zip Code",
+        "address_zip_invalid_for_country": "Please enter a valid zip \/ postal code for {{ province }}, {{ country }}",
+        "address_zip_invalid_for_country_and_province": "Please enter a valid zip \/ postal code for {{ province }}, {{ country }}",
+        "credit_card_name_blank": "Please enter your name as shown on your credit card",
+        "credit_card_number_invalid": "Credit Card Number",
+        "credit_card_expiry_invalid": "Expiration Date",
+        "credit_card_month_invalid": "Expiration Month",
+        "credit_card_year_invalid": "Expiration Year",
+        "credit_card_start_invalid": "Start Date",
+        "credit_card_start_month_invalid": "Start Month Invalid",
+        "credit_card_start_year_invalid": "Start Year Invalid",
+        "credit_card_verification_value_blank": "CVV",
+        "reduction_code_code_not_found": "This code did not match any active gift card or discount. Was it entered correctly?",
+        "shipping_line_phone_blank": "To use this delivery method, you need to enter your mobile phone number.",
+        "shipping_line_phone_invalid": "To use this delivery method, you need to enter a 10-digit mobile phone number.",
+        "gift_card_already_applied": "This gift card has already been applied to your order.",
+        "gift_card_disabled": "Looks like this gift card is no longer available",
+        "gift_card_expired": "Looks like the gift card has expired",
+        "gift_card_depleted": "Looks like there are no remaining funds on this gift card",
+        "gift_card_currency_mismatch": "Only gift cards purchased in {{ checkout_currency }} can be applied to this order"
+      },
+      "payment_errors": {
+        "generic_error": "There was an error processing your payment. Please try again.",
+        "rejected_transaction": "The payment provider rejected the transaction. Please try again.",
+        "credit_card_processing": "We are experiencing technical difficulties while trying to process your credit card. Please try again in a few minutes.",
+        "order_total_changed": "The total of your order has changed. Please make sure you're aware of the changes before completing your order.",
+        "payment_processing": "There was a problem with the payment service. Please select a different payment method or try again later."
+      },
+      "shipping_errors": {
+        "shipping_method": "Your cart has been modified and the shipping rate you previously selected no longer applies. Please select a new rate."
+      },
+      "alternative_payment_method_banner": {
+        "title": "Checkout With:",
+        "or": "Or"
+      },
+      "paypal": {
+        "button_html": "Checkout with {{ logo }}"
+      },
+      "apple_pay": {
+        "button_html": "Buy with {{ logo }}"
+      },
+      "processing": {
+        "redirecting_page_title": "Redirecting...",
+        "redirecting_title": "Redirecting...",
+        "redirecting_notice": "Please wait while we redirect you...",
+        "complete_your_purchase_title": "Complete your purchase",
+        "continue_to_payment_gateway_notice": "Continue to the payment gateway to add your payment information.",
+        "continue_to_payment_gateway_button_label": "Continue to the payment gateway",
+        "complete_your_purchase_title_error": "Correct your payment information",
+        "continue_to_payment_gateway_notice_error": "Your payment information contains errors. Return to the payment gateway to correct them.",
+        "continue_to_payment_gateway_button_label_error": "Return to payment gateway.",
+        "page_title": "Processing order",
+        "title": "Processing order",
+        "wait": {
+          "short": "Your Order has been processed",
+          "long": "You'll receive an email as soon as your order's processed. There's currently a high volume of orders.",
+          "no_auto_refresh_html": "If you're not automatically redirected, <a href='.'>refresh this page<\/a>.",
+          "medium": {
+            "one": "Your order's being processed. Estimated wait time is 1 minute.",
+            "other": "Your order's being processed. Estimated wait time is {{ count }} minutes."
+          }
+        }
+      },
+      "payment_gateway": {
+        "credit_card_label": "Credit card"
+      },
+      "thank_you": {
+        "title": "Thanks you for your purchase!",
+        "confirmation_email_sent_text": "A confirmation email has been sent to {{ email }}",
+        "return_to_store_link_label": "Continue shopping",
+        "print_link_label": "Print receipt",
+        "payment_information_title": "Payment information",
+        "shipping_information_title": "Shipping Information",
+        "page_title": "Thank you {{first_name }}",
+        "cancelled_page_title": "Order canceled",
+        "customer_information_title": "Customer information",
+        "billing_address_title": "Billing Address",
+        "shipping_address_title": "Shipping Address",
+        "payment_method_title": "Payment Method",
+        "shipping_method_title": "Shipping Method",
+        "tracking_number": "Tracking Number",
+        "company_tracking_number": "{{ company }} tracking number:",
+        "estimated_arrival": "Estimated delivery date:",
+        "re-order": "Re-order the same items",
+        "confirmed": "Confirmed",
+        "thank_you_title": "Your order is confirmed",
+        "thank_you_description_html": "We've accepted your order, and we're getting it ready. A confirmation email has been sent to {{ email }}. Come back to this page for updates on your order status.",
+        "confirmed_title": "Your shipment is confirmed",
+        "confirmed_description_html": "We've accepted your order, and we're getting it ready. A confirmation email has been sent to {{ email }}. Come back to this page for updates on your shipment status.",
+        "in_transit": "On it's way",
+        "in_transit_title": "Your shipment is on it's way",
+        "in_transit_description": "Come back to this page for updates on your shipment status.",
+        "in_transit_description_days": "You should receive your package in the next {{ number }} days.",
+        "in_transit_description_today": "You should receive your package today.",
+        "no_tracking_number": "There is no tracking number for this shipment.",
+        "out_for_delivery": "Out for delivery",
+        "out_for_delivery_title": "Your shipment is out for delivery",
+        "out_for_delivery_description_html": "Your shipment is on the delivery truck – expect it to arrive today. If you still haven't received it in the next 2 days, please {{ contact_us }}.",
+        "attempted_delivery": "Attempted delivery",
+        "attempted_delivery_title": "An attempt was made to deliver your shipment",
+        "attempted_delivery_description_html": "An attempt was made to deliver your shipment but it was unsuccessful. Please {{ contact_us }} to arrange another delivery attempt.",
+        "delivered": "Delivered",
+        "delivered_title": "Yout shipment has been Delivered!",
+        "delivered_description_html": "Your shipment has been delivered to the address you provided. If you haven't received it, or if you have any other problems, please {{ contact_us }}.",
+        "contact_us": "Contact Us",
+        "contact_us_lowercase": "Contact Us",
+        "contact_us_html": "Need help? {{ contact_us }}",
+        "updated_time": "Updated {{ time_ago }} ago",
+        "failure": "Not delivered.",
+        "failed_title": "Your shipment could not be delivered",
+        "failed_contact_merchant": "According to {{ company }}, your order couldn't be delivered as planned. Please contact {{ company }} to arrange another delivery attempt."
+      }
+    },
+    "page_titles": {
+      "products": "Products",
+      "shopping_cart": "Your Shopping Cart",
+      "account": "Account",
+      "create_account": "Create Account",
+      "reset_account": "Reset Account",
+      "addresses": "Address",
+      "order": "Order {{name}}",
+      "search": "Search",
+      "collections": "Collections",
+      "not_found": "404 Not Found"
+    },
+    "cart": {
+      "discounts_with_count": "{{ count }} discounts have been applied"
+    }
+  }
+}

@@ -1,0 +1,191 @@
+<hr>
+
+{% if section.settings.header_text != blank %}
+<div class="w3-container w3-center">
+  <h1 class="cb-section-hdr">{{ section.settings.header_text }}</h1>
+</div>
+{% endif %}
+
+{%comment%} Calculate the column width percentage {%endcomment%}
+{% assign col_width_percent = 100 | divided_by: section.settings.grid_cols_per_row  %}
+
+
+{% assign col_counter = 0 %}
+
+{%comment%} Column Loop {%endcomment%}
+{% for block in section.blocks %}
+    {% if forloop.first == true or col_counter == 0 %}
+		{% assign col_counter = section.settings.grid_cols_per_row  %}
+		<div class="w3-row w3-row-padding w3-margin-top">
+    {% endif %}
+      <div class="w3-col w3-container" style="width:{{col_width_percent}}%;">
+        <a href="{{ block.settings.link }}"><img src="{{ block.settings.slide | img_url: 'master' }}" style="width:100%"></a>
+      </div>
+          
+      {% assign col_counter = col_counter | minus: 1 %}
+
+      {% if forloop.last == true or col_counter == 0 %}
+          </div>
+      {% endif %}
+{% endfor %}
+
+
+
+{% schema %}
+  {
+    "name": "CB-Custom-Image-Grid",
+    "class": "image-grid-section",
+    "settings": [
+      {
+        "type": "select",
+        "id": "grid_cols_per_row",
+        "label": "Transition time",
+        "options": [
+          {
+            "value": "3",
+            "label": "3 images per row"
+          },
+          {
+            "value": "4",
+            "label": "4 images per row"
+          },
+          {
+            "value": "5",
+            "label": "5 images per row"
+          },
+          {
+            "value": "6",
+            "label": "6 images per row"
+          }        ]
+      },
+          {
+            "type": "html",
+	          "id": "header_text",
+	          "label": "Header Text",
+	          "default": "<p>Header Text.</p>"
+          }
+
+     ],
+    "presets": [
+      {
+        "name": "CB Custom Image Grid",
+        "category": "Image",
+        "blocks":[
+          {
+          "type": "image",
+          "type": "image",
+          "type": "image",
+          "type": "image",
+          "type": "image",
+          "type": "image",
+          "type": "image",
+          "type": "image",
+          "type": "image",
+          "type": "image",
+          "type": "image"
+         }
+        ]
+      }
+    ],
+    "blocks" : [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "slide",
+            "label": "Image",
+            "info":"Pick an image to add"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link URL"
+          }
+         ]
+      }
+    ]
+  }
+
+
+
+
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+
+
+{%comment%}
+  {
+    "name": "CB-Custom-Image-Grid",
+    "class": "image-grid-section",
+    "settings": [
+      {
+        "type": "select",
+        "id": "images_per_row",
+        "label": "Number of images per row?",
+        "options": [
+          {
+            "value": "2",
+            "label": "2 images per row"
+          },
+          {
+            "value": "3",
+            "label": "3 images per row"
+          },
+          {
+            "value": "4",
+            "label": "4 images per row"
+          },
+          {
+            "value": "5",
+            "label": "5 images per row"
+          },
+          {
+            "value": "6",
+            "label": "6 images per row"
+          }        
+		]
+      }
+],
+    "presets": [
+      {
+        "name": "CB Custom Image Grid",
+        "category": "Image",
+        "blocks":[
+          {
+          "type": "image",
+          "type": "image",
+          "type": "image"
+         }
+        ]
+      }
+    ],
+    "blocks" : [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "grid_image",
+            "label": "Image",
+            ""
+          }
+
+
+
+
+
+
+        ]
+      }
+    ]
+  }
+{%endcomment%}
+

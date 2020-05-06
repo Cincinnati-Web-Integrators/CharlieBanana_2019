@@ -1,0 +1,254 @@
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    div.col-45 {
+      width: 100% !important;
+    }
+    div.col-50 {
+      width: 100% !important;
+    }
+    div.centerSmall {
+      margin-left: 0px !important;
+      float: none !important;
+      clear: both !important;
+      margin: 0 auto !important;
+    }
+    div.blockText {
+      float: none;
+      width: 100%;
+      height: auto;
+    }
+    div.col-30 {
+      width: 100%;
+    }
+    div.col-40 {
+      width: 100%;
+    }
+    div.col-60 {
+      width: 100%;
+    }
+    #ambassador-program div#mc_embed_signup input, label {
+    width: 100% !important;
+    clear: both;
+	}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    div.col-45 {
+      width: 100% !important;
+    }
+    div.col-50 {
+      width: 100% !important;
+    }
+    div.centerSmall {
+      margin-left: 0px !important;
+      float: none !important;
+      clear: both !important;
+      margin: 0 auto !important;
+    }
+    div.blockText {
+      float: none;
+      width: 100%;
+      height: auto;
+    }
+    div.col-30 {
+      width: 100%;
+    }
+    div.col-40 {
+      width: 100%;
+    }
+    div.col-60 {
+      width: 100%;
+    }
+    #ambassador-program div#mc_embed_signup input, label {
+    width: 100% !important;
+    clear: both;
+	}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    div.col-45 {
+      width: 100% !important;
+    }
+    div.col-50 {
+      width: 100% !important;
+    }
+    div.centerSmall {
+      margin-left: 0px !important;
+      float: none !important;
+      clear: both !important;
+      margin: 0 auto !important;
+    }
+    div.blockText {
+      float: none;
+      width: 100%;
+      height: auto;
+    }
+    div.col-30 {
+      width: 100%;
+    }
+    div.col-40 {
+      width: 100%;
+    }
+    div.col-60 {
+      width: 100%;
+    }
+    #ambassador-program div#mc_embed_signup input, label {
+    width: 100% !important;
+    clear: both;
+	}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    div.col-45 {
+      width: 100% !important;
+    }
+    div.col-50 {
+      width: 100% !important;
+    }
+    div.centerSmall {
+      margin-left: 0px !important;
+      float: none !important;
+      clear: both !important;
+      margin: 0 auto !important;
+    }
+    div.blockText {
+      float: none;
+      width: 100%;
+      height: auto;
+    }
+    div.col-30 {
+      width: 100%;
+    }
+    div.col-40 {
+      width: 100%;
+    }
+    div.col-60 {
+      width: 100%;
+    }
+    #ambassador-program div#mc_embed_signup input, label {
+    width: 100% !important;
+    clear: both;
+	}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+	div.col-45 {
+      width: 100% !important;
+    }
+    div.col-50 {
+      width: 100% !important;
+    }
+    div.centerSmall {
+      margin-left: 0px !important;
+      float: none !important;
+      clear: both !important;
+      margin: 0 auto !important;
+    }
+    div.blockText {
+      float: none;
+      width: 100%;
+      height: auto;
+    }
+    div.col-30 {
+      width: 100%;
+    }
+    div.col-40 {
+      width: 100%;
+    }
+    div.col-60 {
+      width: 100%;
+    }
+    #ambassador-program div#mc_embed_signup input, label {
+    width: 100% !important;
+    clear: both;
+	}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+	div.col-45 {
+      width: 100% !important;
+    }
+    div.col-50 {
+      width: 100% !important;
+    }
+    div.centerSmall {
+      margin-left: 0px !important;
+      float: none !important;
+      clear: both !important;
+      margin: 0 auto !important;
+    }
+    div.blockText {
+      float: none;
+      width: 100%;
+      height: auto;
+    }
+    div.col-30 {
+      width: 100%;
+    }
+    div.col-40 {
+      width: 100%;
+    }
+    div.col-60 {
+      width: 100%;
+    }
+    #ambassador-program div#mc_embed_signup input, label {
+    width: 100% !important;
+    clear: both;
+	}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+}

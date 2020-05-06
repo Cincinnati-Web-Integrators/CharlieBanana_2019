@@ -1,0 +1,30 @@
+<div class="free-shipping-banner">
+  <span><img src="{{ section.settings.free_shipp | img_url: 'original' }}"></span>
+  </div>
+
+
+{% schema %}
+  {
+    "name": "Shipping Banner",
+    "settings": [
+       {
+         "type": "image_picker",
+          "id": "free_shipp",
+          "label": "Free Shipping Banner"
+      }
+      ],
+      "presets": [
+      {
+        "name": "Free Ship Banner",
+        "category": "Image"
+       
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

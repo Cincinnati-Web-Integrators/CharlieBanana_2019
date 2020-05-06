@@ -1,0 +1,169 @@
+<div class="million">
+  <img src="//cdn.shopify.com/s/files/1/1213/3976/files/Over_1_Million_Sold-01_134x134_crop_center@2x.png?v=1519445509">
+</div>
+<hr>
+{% comment %} {% assign hero_enabled = true %}{% endcomment %}
+<div class="flexslider" id="heroSlider--{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="slideshow-section" data-slider-home-auto="{{ section.settings.slider_home_auto }}" data-slider-home-rate="{{ section.settings.slider_home_rate }}">
+  <ul class="slides">
+    {% for block in section.blocks %}
+	
+        <li id="slide--{{ block.id }}" data-flexslider-index="{{ forloop.index0 }}" {{ block.shopify_attributes }}>
+        {% if block.settings.slide != blank %}
+          {% if block.settings.link != "" %}
+          <a href="{{ block.settings.link }}" class="slide-link">
+          {% endif %}
+            <img id="cb-slider-img" src="{{ block.settings.slide | img_url: '1060x' }}"
+            srcset="{{ block.settings.slide | img_url: '1060x' }} 1x, {{ block.settings.slide | img_url: '1024x', scale: 2 }} 2x" alt="{{ block.settings.slide.alt }}">
+
+          {% if block.settings.link != "" %}
+          </a>
+          {% if block.settings.cb_slider_header_text != "" %}
+
+            <div class="cb-slider-text-block-pos">
+              <div id="cb-msgbox" style="height:100%">
+                <span class="w3-row w3-left-align cb-slider-hdr-txt">{{block.settings.cb_slider_header_text}}</span>
+                <div class="cb-slider-bdy-txt">{{block.settings.cb_slider_body_text}}</div>
+                <div class="cb-slider-btn-con"><span><a class="w3-btn cb-slider-btn" href="{{ block.settings.link }}">{{block.settings.cb_slider_button_text}}</a></span></div>
+              </div>
+            </div>
+            
+          {% endif %}
+
+
+          {% endif %}
+
+          {% else %}
+                {% capture current %}{% cycle 1, 2 %}{% endcapture %}
+                {% capture svg_tag_class %}placeholder-noblocks slide-link slide-link--{{ block.id }}{% endcapture %}
+                {%- assign placeholder = 'placeholder-lifestyle-' | append: current -%}
+                {{ 'lifestyle-' | append: current | placeholder_svg_tag: svg_tag_class }}
+          {% endif %}
+        </li>
+            
+    {% endfor %}
+  </ul>
+</div>
+
+<script>
+  /*
+$(document).ready(function(){
+
+
+    alert($("#cb-slider-img").height());
+
+    $("#cb-msgbox").css('height',$("w3-container").innerHeight());
+
+  var $img = $("#cb-slider-img");
+
+  $("#cb-slider-img").on('load', function(){
+  });
+
+  
+});
+  
+*/
+</script>
+
+
+
+
+{% schema %}
+  {
+    "name": "CB-Custom-Slideshow",
+    "class": "slider-section",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "slider_home_auto",
+        "label": "Auto-rotate slides"
+      },
+      {
+        "type": "select",
+        "id": "slider_home_rate",
+        "label": "Transition time",
+        "options": [
+          {
+            "value": "5000",
+            "label": "5 seconds"
+          },
+          {
+            "value": "7000",
+            "label": "7 seconds"
+          },
+          {
+            "value": "10000",
+            "label": "10 seconds"
+          },
+          {
+            "value": "15000",
+            "label": "15 seconds"
+          }        ]
+      }
+],
+    "presets": [
+      {
+        "name": "CB Custom Slideshow",
+        "category": "Image",
+        "blocks":[
+          {
+          "type": "image",
+          "type": "image",
+          "type": "image"
+         }
+        ]
+      }
+    ],
+    "blocks" : [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "slide",
+            "label": "Image",
+            "info":"1000 x 500px recommended"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link URL"
+          }
+,
+
+          {
+            "type": "textarea",
+            "id": "cb_slider_header_text",
+            "label": "Header Text",
+            "default": "Header Text"
+          }
+
+,
+
+          {
+            "type": "textarea",
+            "id": "cb_slider_body_text",
+            "label": "Body Text",
+            "default": "Body Text"
+          }
+
+,
+
+          {
+            "type": "textarea",
+            "id": "cb_slider_button_text",
+            "label": "Button Text",
+            "default": "Button Text"
+          }
+
+
+
+
+
+
+
+        ]
+      }
+    ]
+  }
+{% endschema %}
