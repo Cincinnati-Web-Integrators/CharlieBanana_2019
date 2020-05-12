@@ -161,6 +161,15 @@
 
 
 {% include 'weglot_switcher' %}
+
+{%if page.url == '/pages/privacy-policy' or page.url == '/pages/use-submission-terms-and-conditions'%}
+  <style>
+    main a{
+      color:#00F;
+      text-decoration:underline;
+    }
+  </style>
+{%endif%}
 </head>
 
 <body id="{{page_title | handle}}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}" >
