@@ -1,9 +1,5 @@
 <!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="ie9 no-js"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-touch no-js"> <!--<![endif]-->
+<html class="no-touch no-js" lang="en">
 <head>
   <!-- Basic page needs ================================================== -->
   <meta charset="utf-8">
@@ -18,9 +14,7 @@
   <title>
   {{ page_title }}{% if current_tags %}{% assign current_tags_joined = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: current_tags_joined }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
   </title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
   
   {% if page_description %}
     <meta name="description" content="{{ page_description | escape }}">
@@ -97,27 +91,27 @@
       var PGdataLayer = {};
   }
   PGdataLayer.GTM ={
-  'SiteBrand': 'Charlie Banana',
-  'SiteCountry': 'US',
-  'SiteEnvironment': 'Prod',
-  'SiteHost': 'Shopify',
-  'SiteTechnicalAgency': 'Curiosity',
-  'SiteLocalContainer': 'GTM-KVC9VFG',
-  'GoogleAnalyticsStaging': '',
-  'GoogleAnalyticsLocal': 'UA-15412956-1',
-  'GoogleAnalyticsAllowLinker': '',
-  'GoogleAnalyticsLinkerDomains': '',
-  'ConsentOverlay': 'false',
-  'ConsentOverlayID': '',
-  'SitePrivacyProtection': '',
-  'GoogleReCaptcha': 'false',
-  'FacebookRemarketingID': '1493367250711470',
-  'FacebookConnectAppID': '',
-  'FacebookConnectLocale': '',
-  'GoogleAnalyticsDisabled': '',
-  'Segment': '',
-  'Lytics': '',
-  'Monetate': ''
+    'SiteBrand': 'Charlie Banana',
+    'SiteCountry': 'US',
+    'SiteEnvironment': 'Prod',
+    'SiteHost': 'Shopify',
+    'SiteTechnicalAgency': 'Curiosity',
+    'SiteLocalContainer': 'GTM-KVC9VFG',
+    'GoogleAnalyticsStaging': '',
+    'GoogleAnalyticsLocal': 'UA-15412956-1',
+    'GoogleAnalyticsAllowLinker': '',
+    'GoogleAnalyticsLinkerDomains': '',
+    'ConsentOverlay': 'false',
+    'ConsentOverlayID': '',
+    'SitePrivacyProtection': '',
+    'GoogleReCaptcha': 'false',
+    'FacebookRemarketingID': '1493367250711470',
+    'FacebookConnectAppID': '',
+    'FacebookConnectLocale': '',
+    'GoogleAnalyticsDisabled': '',
+    'Segment': '',
+    'Lytics': '',
+    'Monetate': ''
   }
   </script>
   <!-- END PGdataLayer -->
@@ -128,11 +122,6 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-N94XXFB');</script>
   <!-- End Google Tag Manager -->
-  
-<script src ="https://up.pixel.ad/assets/up.js?um=1"></script>
-<script type="text/javascript">
-	cntrUpTag.track('cntrData', '3263bfbc3f1ee3bb');
-</script>
 
 {% include 'weglot_switcher' %}
 
@@ -144,6 +133,12 @@
     }
   </style>
 {%endif%}
+
+<script>
+  Weglot.on("languageChanged", (lang)=>{
+    document.documentElement.setAttribute("lang", lang);
+  });
+</script>
 </head>
 
 <body id="{{page_title | handle}}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}" >
