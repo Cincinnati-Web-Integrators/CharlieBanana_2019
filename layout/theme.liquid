@@ -139,6 +139,16 @@
     document.documentElement.setAttribute("lang", lang);
   });
 </script>
+
+<script src="https://js.adsrvr.org/up_loader.1.1.0.js" type="text/javascript"></script>
+<script type="text/javascript">
+    ttd_dom_ready( function() {
+        if (typeof TTDUniversalPixelApi === 'function') {
+            var universalPixelApi = new TTDUniversalPixelApi();
+            universalPixelApi.init("n1dzl0c", ["z30bs9a"], "https://insight.adsrvr.org/track/up");
+        }
+    });
+</script>
 </head>
 
 <body id="{{page_title | handle}}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}" >
@@ -172,7 +182,7 @@
 {% if settings.ajax_cart_method != 'page' %}
 
   {% include 'ajax-cart-template' %}
-
+  
   <script>
   jQuery(function($) {
     ajaxifyShopify.init({
